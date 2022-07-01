@@ -7,7 +7,7 @@ def randomize_list(input_list):
     randomized_list = input_list.copy()
     random.shuffle(randomized_list)
     return randomized_list
-#random sorting algorithm inspired by Mohammad Tomaraei https://dev.to/themreza/random-sort-algorithm-without-consecutive-repeats-4no2
+#random sorting algorithm by Mohammad Tomaraei https://dev.to/themreza/random-sort-algorithm-without-consecutive-repeats-4no2
 #adapted to allow for 2 repeated items, and use list instead of dicts
 #checks for 2 repeated items in a row and returns repeated items and list inputted
 def get_repeated_items(input_list):
